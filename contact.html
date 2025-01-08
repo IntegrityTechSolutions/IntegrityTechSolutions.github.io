@@ -21,14 +21,49 @@
     <link href="css/styles.css" rel="stylesheet">
     
     <style>
+        /* Form container */
         .form-container {
-            max-width: 500px;
-            margin: 50px auto;
+            max-width: 100%;
+            margin: 20px auto;
             padding: 20px;
             border: 1px solid #ccc;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             background-color: #f9f9f9;
+        }
+        
+        /* Button hover effect */
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+        /* Mobile-friendly padding */
+        @media (max-width: 576px) {
+            .navbar-nav {
+                text-align: center;
+            }
+
+            .navbar-collapse {
+                padding: 10px;
+            }
+
+            .form-container {
+                padding: 15px;
+            }
+
+            .container {
+                padding: 0 15px;
+            }
+        }
+
+        /* Enhanced typography */
+        .navbar-brand {
+            font-size: 1.8rem;
+        }
+        h1, h2 {
+            font-family: 'Arial', sans-serif;
+            font-weight: bold;
         }
     </style>
 </head>
