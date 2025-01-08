@@ -1,1 +1,0 @@
-# IntegrityTechSolutions.github.io
