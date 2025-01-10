@@ -3616,8 +3616,22 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  
 }
 
+.nav-item {
+  font-family: "Roboto", serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: #000;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s;
+
+    
+}
 .nav-link {
   display: block;
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
